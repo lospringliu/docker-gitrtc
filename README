@@ -1,0 +1,12 @@
+how to install scm tools?
+
+1. browse https://jazz.net/downloads/rational-team-concert
+2. click the proper version suitable for your server, then click "All Downloads"
+3. browse to "Plain .zip Files", "SCM Tools"
+4. download "Linux x86-64(size)"
+5. unzip download .zip file
+6. copy everything in jazz/scmtools/eclipse/ to /root/bin/
+7. edit /root/bin/scm.ini , uncomment line #2 and #3, replace line #3 as: /opt/ibm/java/jre/bin/java 
+8. edit /root/bin/scm.ini , replace java heap size 512M to 3072M
+
+or you can read online https://github.com/lospringliu/docker-gitrtc
