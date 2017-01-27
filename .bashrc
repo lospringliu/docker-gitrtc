@@ -92,9 +92,9 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 export PATH=~/bin:$PATH
-export LC_ALL=en_US.utf8
-export LANG=en_US.utf8
-export LANGUAGE=en_US.utf8
+#export LC_ALL=en_US.utf8
+#export LANG=en_US.utf8
+#export LANGUAGE=en_US.utf8
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
