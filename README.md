@@ -12,5 +12,4 @@ https://github.com/lospringliu/gitrtc.git
   3. download "Linux x86-64(size)"
 3. unzip download .zip file
 4. copy everything in jazz/scmtools/eclipse/ to /root/bin/
-5. edit /root/bin/scm.ini , uncomment line #2 and #3, replace line #3 as: /opt/ibm/java/jre/bin/java 
-6. edit /root/bin/scm.ini , replace java heap size 512M to 3072M
+5. edit /root/bin/scm.ini , replace java heap size 512M to 4096M
